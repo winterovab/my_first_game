@@ -10,6 +10,7 @@ def display_board(board):
     print('  |   |  ')
 
 def select_symbol():
+    #select symbol
     marker = ''
     while marker != 'X' and marker != 'O':
         marker = input("Please pick a marker 'X' or 'O': ")
@@ -97,6 +98,5 @@ while True:
 
     if not replay():
         break
-
 
 
