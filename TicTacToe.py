@@ -23,6 +23,7 @@ def select_symbol():
     return (player1, player2)
 
 def place_marker(board, marker, position):
+    #place marker
     board[position] = marker
 
 def win_check(board, mark): 
